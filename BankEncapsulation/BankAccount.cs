@@ -19,5 +19,10 @@ namespace BankEncapsulation
         {
             return balance;
         }
+
+        public void Withdraw(double amount)
+        {
+            balance -= amount;
+        }
     }
 }
